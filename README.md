@@ -1,9 +1,14 @@
 # collinsDict_crawler
 抓取collins字典
-###下次要制作cvs文件来批量提取
+
+#运行环境 python=3.9  BeautifulSoup=4.12.2 
+
+###2023.11.4 V0.02  抓取600常用单词的解释并保存json
+备注：这个网址是金山词霸，每天有限制
+
 ###2023.11.3 V0.01  测试固定单词，抓取json并保存
 
-###collins词典的优点：有例句，英英解释
+##collins词典的优点：有例句，英英解释
 ### json结构解析如下
 symbols 发音和解释
 ph_am 美式发音
