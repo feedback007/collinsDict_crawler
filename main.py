@@ -8,7 +8,7 @@ import json
 CS_QUERY_URL_COLLIN = 'https://www.iciba.com/word?w='
 
 def queryCollins(word):
-    fileName=r'json\\'+word+'.json'
+    fileName=r'dict\\'+word+'.json'
     word=word.replace(' ', '%20')
     ssl._create_default_https_context = ssl._create_unverified_context
     html = urlopen(CS_QUERY_URL_COLLIN + word)
